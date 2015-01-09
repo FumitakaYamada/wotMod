@@ -1,0 +1,53 @@
+﻿<dgs>
+	<debug>true</debug>
+
+	<arcade>
+		<color>00CCFF</color>
+		<centerLine>true</centerLine>
+		<playerPanel>
+			<locations x="-120" y="40" scale="100"/>	
+			<useHealthValue percent="true" current="true" useMotion="true"/>	
+			<shellInfo penetration="false" damage="false"/>
+			<textDecorate visible="true" alpha="40"/>
+		</playerPanel>
+		<targetPanel>
+			<visible active="true"/>
+			<locations x="120" y="40" scale="100"/>		
+			<useMotion showSpeed="1" textAnimation="true" fadingSpeed = "0.5" fadingDelay="2"/> 
+		</targetPanel>
+
+		<teaTimePanel>
+			<value>test</value>
+		</teaTimePanel>
+	</arcade>
+
+	<sniper>
+		<color>00CCFF</color>
+		<centerLine>true</centerLine>
+		<common>
+			<bloodEff active="true"/>
+			<zoomMotion active="false"/>
+			<textDecorate visible="true" alpha="40"/>
+			<inforPanelUnderLine visible="true" alpha="100"/>
+			<inCircle visible="true" alpha="40"/>
+			<outCircle visible="true" alpha="40"/>
+			<useHealthValue x="-130" y="100" scale="100" percent="true" current="true"/>	
+			<shellInfo penetration="false" damage="false"/>
+		</common>
+
+		<targetPanel>
+			<visible active="true"/>
+			<locations x="130" y="100" scale="100"/>		
+			<useMotion showSpeed="1" textAnimation="true" fadingSpeed = "0.5" fadingDelay="2"/> 
+		</targetPanel>
+	</sniper>
+
+  <strategic>
+	  <targetPanel>
+			<visible active="true"/>
+			<locations x="130" y="100" scale="100"/>
+			<useMotion showSpeed="1" textAnimation="true" fadingSpeed = "0.5" fadingDelay="2"/>
+	  </targetPanel>
+  </strategic>
+	
+</dgs>
