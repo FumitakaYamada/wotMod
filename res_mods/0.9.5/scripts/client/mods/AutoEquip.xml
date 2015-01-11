@@ -6,4 +6,9 @@
 		<slot2>	1273	</slot2>
 		<slot3>	1785	</slot3>
 	</ussr:R04_T-34>
+	<uk:GB07_Matilda>
+		<slot1>	249	</slot1>
+		<slot2>	1273	</slot2>
+		<slot3>	1785	</slot3>
+	</uk:GB07_Matilda>
 </AutoEquip.xml>
