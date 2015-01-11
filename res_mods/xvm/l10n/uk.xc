@@ -30,7 +30,7 @@
     "allyBaseCapture": "Захоплення бази{0} ворогами!",
     "allyBaseCaptured": "База{0} захоплена ворогами!",
     "Timeleft": "Залишилось",
-    "Capturers": "Машин на захопленні",
+    "Capturers": "Машин на захоплені",
     "Hit percent": "Відсоток влучень",
     "Damage (assisted / own)": "Пошкодження (з вашою допомогою/свої)",
     "BR_xpCrew": "екіпажу",
@@ -81,11 +81,7 @@
     "PutPreviousCrew": "Попередній екіпаж",
     "DropAllCrew": "Висадити весь екіпаж",
     "gun_reload_time/actual": "Розрахунковий час перезарядження гармати",
-    "view_range/base": "базова",
-    "view_range/actual": "розрахункова",
     "view_range/stereoscope": "зі стереотрубою",
-    "radio_range/base": "базова",
-    "radio_range/actual": "розрахункова",
     "(sec)": "(сек)",
     "(m)": "(м)",
     "Squad battle tiers": "Рівень боїв взводу",
@@ -131,9 +127,6 @@
     "Comment": "Коментар",
     "Destroyed": "Знищений",
     "No data": "Немає данних",
-    "Not ready": "Не готовий",
-    "XVM config reloaded": "Конфіг XVM перезавантажено",
-    "Config file xvm.xc was not found, using the built-in config": "Файл конфігурації xvm.xc не знайдений, використовуємо вбудовану конфігурацію",
-    "Error loading XVM config": "Помилка завантаження конфіга XVM"
+    "Not ready": "Не готовий"
   }
 }

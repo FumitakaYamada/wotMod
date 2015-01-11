@@ -131,9 +131,6 @@
     "Comment": "Comentario",
     "Destroyed": "Destruído",
     "No data": "Sin datos",
-    "Not ready": "No preparado",
-    "XVM config reloaded": "Configuración XVM actualizada",
-    "Config file xvm.xc was not found, using the built-in config": "Archivo xvm.xc no ha sido encontrado usando la configuración por defecto",
-    "Error loading XVM config": "Error al cargar la configuración XVM"
+    "Not ready": "No preparado"
   }
 }

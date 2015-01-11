@@ -7,18 +7,14 @@
     // false - Disable.
     // false - отключить.
     "enabled": true,
-    // Ally and enemy bars colors (default: use system color)
-    // Цвета полос захвата союзников и противников (по умолчанию используется системный цвет)
-    "allyColor": null,
-    "enemyColor": null,
     // Upper textfield offset in case of big font size.
     // Смещение верхнего поля вверх на случай больших размеров шрифтов.
     "primaryTitleOffset": 7,
     // Append plus to three capturers. Cant calculate more than three.
     // Дописывать плюс к тройке захватчиков. Невозможно рассчитать более трёх.
     "appendPlus" : true,
-    // Capture format (macros allowed, see macros.txt).
-    // Формат захвата (допускаются макроподстановки, см. macros.txt).
+    // Capture format (macros allowed, see readme-en.txt).
+    // Формат захвата (допускаются макроподстановки, см. readme-ru.txt).
     "enemy": { // Вражеской.
       // Upper textfield.
       // Верхнее текстовое поле.

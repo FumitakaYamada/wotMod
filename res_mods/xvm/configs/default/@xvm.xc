@@ -31,7 +31,7 @@
   // Используемый язык в моде
   // "auto" - автоматически определять язык клиента игры,
   // или укажите имя файла в папке res_mods/xvm/l10n/ (например, "en")
-  "language": "auto",
+  "language": "en",
 
   // Game Region
   // "auto" - automatically detect game region from game client,
@@ -58,7 +58,7 @@
 
     // Config last modified.
     // Дата последней модификации конфига.
-    "date": "25.12.2014",
+    "date": "22.12.2014",
 
     // Supported version of the game.
     // Поддерживаемая версия игры.
@@ -66,7 +66,7 @@
 
     // The minimum required version of the XVM mod.
     // Минимально необходимая версия мода XVM.
-    "modMinVersion": "5.5.1.1"
+    "modMinVersion": "5.4.2"
   },
 
   // Parameters for login screen.

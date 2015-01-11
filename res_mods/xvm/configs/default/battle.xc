@@ -15,10 +15,7 @@
     "highlightVehicleIcon": true,
     // true - enable {{hp*}} macros ability in players panels and minimap. WARNING: performance expensive
     // true - включить возможность {{hp*}} макросов в ушах и на миникарте. ВНИМАНИЕ: может понизить производительность
-    "allowHpInPanelsAndMinimap": false,
-    // true - enable {{marksOnGun}} macro in players panels and minimap. WARNING: performance expensive
-    // true - включить макрос {{marksOnGun}} в ушах и на миникарте. ВНИМАНИЕ: может понизить производительность
-    "allowMarksOnGunInPanelsAndMinimap": false,
+    "allowHpInPanelsAndMinimap": true,
     // Format of clock on the Debug Panel (near FPS).
     // Формат часов на экране панели отладки (возле FPS).
     "clockFormat": "H:N", // TODO: "H:i"

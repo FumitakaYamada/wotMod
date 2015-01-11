@@ -2,4 +2,8 @@
 	<ussr:IS>
 		<slot2>	249	</slot2>
 	</ussr:IS>
+	<ussr:R04_T-34>
+		<slot2>	1273	</slot2>
+		<slot3>	1785	</slot3>
+	</ussr:R04_T-34>
 </AutoEquip.xml>

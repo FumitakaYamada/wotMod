@@ -12,10 +12,7 @@
     "mapBackgroundImageAlpha": 100,
     // Self icon transparency. White pointing arrow.
     // Прозрачность своей иконки. Белая стрелка.
-    "selfIconAlpha": 75,
-    // Hide camera direction green triangle (also hides WG camera direction line).
-    // Спрятать зеленый треугольник направления камеры (также скрывает луч направления камеры WG).
-    "hideCameraTriangle": false,
+    "selfIconAlpha": 100,
     // Camera transparency and its attached geometry (green triangle).
     // Прозрачность камеры и прикрепленной геометрии (зеленый треугольник).
     "cameraAlpha": 100,

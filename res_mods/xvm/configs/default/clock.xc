@@ -9,10 +9,10 @@
     "enabled": true,
     // Horizontal position.
     // Положение по горизонтали.
-    "x": -10,
+    "x": -15,
     // Vertical position.
     // Положение по вертикали.
-    "y": 28,
+    "y": 40,
     // Width.
     // Ширина.
     "width": 300,
@@ -48,7 +48,6 @@
     "bgColor": null,
     // If set, draw image at background.
     // Фоновое изображение, если задано.
-    // example: "bgImage": "xvm://configs/My/img/my.png",
     "bgImage": null,
     // Anti aliasing mode ("advanced" or "normal").
     // Тип сглаживания ("advanced" или "normal").
@@ -72,7 +71,7 @@
     //
     // Clock format.
     // Формат часов.
-    "format": "<textformat tabstops='[80]' leading='-39'><font face='$FieldFont'><font size='15'>{{D%02d}} {{MM}} {{Y}}<tab><font size='36'>{{h%02d}}:{{m%02d}}</font>\n<textformat rightMargin='87'>{{WW}}</font></textformat></textformat>",
+    "format": "<font face='$FieldFont'><font size='19'>{{W}} {{D%02d}} {{MM}}</font><font size='26'> {{h%02d}}:{{m%02d}}</font></font>",
     // Shadow.
     // Тень.
     "shadow": {

@@ -52,9 +52,7 @@
       "teamKiller_blowedup": "0x096A75",
       "enemy_alive":         ${"def.en"},
       "enemy_dead":          "0x840500",
-      "enemy_blowedup":      "0x5A0401",
-      "ally_base":           ${"def.al"},
-      "enemy_base":          ${"def.en"}
+      "enemy_blowedup":      "0x5A0401"
     },
     // Dynamic color by damage kind.
     // Динамический цвет по типу урона.
@@ -84,18 +82,6 @@
       "premium": "0xFFCC66",
       // Включить/выключить использование премиумного цвета.
       "usePremiumColor": false
-    },
-    // Dynamic color by spotted status
-    // Динамический цвет по статусу засвета
-    "spotted": {
-      "neverSeen": "0x000000",
-      "lost": "0x999999",
-      "revealed": "0x00DE00",
-      "dead": "0x000000",
-      "neverSeen_arty": "0x000000",
-      "lost_arty": "0x999999",
-      "revealed_arty": "0xDE0000",
-      "dead_arty": "0x000000"
     },
     // Color settings for damage.
     // Настройки цвета для урона.
@@ -365,14 +351,15 @@
       { "value": 99.9,  "color": ${"def.colorRating.very_good"} },  // better then 99% of players
       { "value": 101,   "color": ${"def.colorRating.unique"   } }   // better then 99.9% of players
     ],
+    // TODO:values
     // Dynamic color by hit ratio (percents of hits)
     // Динамический цвет по проценту попаданий
     "hitsRatio": [
-      { "value": 47.5,  "color": ${"def.colorRating.very_bad" } },
-      { "value": 60.5,  "color": ${"def.colorRating.bad"      } },
-      { "value": 68.5,  "color": ${"def.colorRating.normal"   } },
-      { "value": 74.5,  "color": ${"def.colorRating.good"     } },
-      { "value": 78.5,  "color": ${"def.colorRating.very_good"} },
+      { "value": 20,    "color": ${"def.colorRating.very_bad" } },
+      { "value": 60,    "color": ${"def.colorRating.bad"      } },
+      { "value": 90,    "color": ${"def.colorRating.normal"   } },
+      { "value": 99,    "color": ${"def.colorRating.good"     } },
+      { "value": 99.9,  "color": ${"def.colorRating.very_good"} },
       { "value": 101,   "color": ${"def.colorRating.unique"   } }
     ]
   }
